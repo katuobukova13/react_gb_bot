@@ -1,0 +1,52 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "react_gb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --mode development --open",
+    "start": "webpack --mode production",
+    "server": "webpack serve --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.13.10",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "mini-css-extract-plugin": "^1.4.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.3",
+    "react-responsive": "^8.2.0",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "webpack-serve": "^3.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "source-map": "^0.6.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.27.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/react"
+    ]
+  }
+}

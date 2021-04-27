@@ -1,0 +1,53 @@
+.message-field {
+  display: flex;
+  flex-direction: column;
+  background-color: #e2e2e2;
+  padding: 20px;
+  width: 100%;
+  min-height: calc(100vh - 110px);
+  overflow-y: scroll;
+}
+.layout {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.message {
+  background-color: #3f51b5;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 18px;
+  margin: 5px;
+  color: white;
+  opacity: 0.95;
+}
+.btn-submit {
+  background-color: grey !important;
+  opacity: 0.95 !important;
+}
+.my-1 {
+  width: 80% !important;
+}
+.nav-link {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.5);
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 650px) {
+  .layout {
+    width: 50%;
+  }
+  .username {
+    display: none;
+  }
+}
